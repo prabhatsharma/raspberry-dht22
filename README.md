@@ -8,3 +8,5 @@ Prerequisites:
 sudo apt-get install libgpiod2
 raspbian buster
 
+
+Lambda handler code is at: https://github.com/prabhatsharma/aws-iot-cloudwatch
