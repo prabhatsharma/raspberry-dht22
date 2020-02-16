@@ -63,7 +63,7 @@ while True:
         calendar_date = str(year) + "-" + str(month) + "-" + str(day)
         calendar_time = str(hour) + "-" + str(minute) + "-" + str(second)
         celsius = round(temperature, 2)
-        fahrenheit = round(temperature*9/5+32)
+        fahrenheit = round(temperature*9/5+32,2)
         epoch = int(round(time.time(),0))
         humidity = round(humidity, 2)
 
